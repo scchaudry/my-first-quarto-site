@@ -14,3 +14,12 @@ This page was written in **Quarto** and published straight from GitHub.
 ```{python}
 print("Hello from a rendered code chunk!")
 ```
+
+## Load
+```{python}
+import pandas as pd
+import plotly.express as px
+
+sales = pd.read_csv("data/campus_cafe_sales.csv")
+sales.head()
+```
