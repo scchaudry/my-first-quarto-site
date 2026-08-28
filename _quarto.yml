@@ -3,6 +3,9 @@ project:
   render:
     - index.qmd
 
+resources:
+- data/campus_cafe_sales.csv
+
 format:
   html:
     theme: cosmo
